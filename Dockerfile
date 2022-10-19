@@ -17,6 +17,7 @@ RUN wget ${PURL}/zeromq/libpgm-5.2.122-x86_64-bksrc2.xzm && rl_xm *.xzm / && rm 
 RUN wget ${PURL}/libnet/libnet-20220330-x86_64-bksrc1.xzm && rl_xm *.xzm / && rm *.xzm
 RUN wget ${PURL}/staticlibs/staticlibs-libpcap-1.10.0-x86_64-bksrc1.xzm && rl_xm *.xzm / && rm *.xzm
 RUN wget ${PURL}/staticlibs/staticlibs-libevent-2.1.12-x86_64-bksrc1.xzm && rl_xm *.xzm / && rm *.xzm
+RUN wget ${PURL}/qlibc/qlibc-2.4.6-x86_64-bksrc1.xzm && rl_xm *.xzm / && rm *.xzm
 
 # ------------------------------------------------------------------------------
 # Define default command
